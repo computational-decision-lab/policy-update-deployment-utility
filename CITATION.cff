@@ -4,8 +4,8 @@ message: "Please cite the dated release used for your analysis."
 type: software
 version: "202611050855"
 date-released: 2026-11-05
-repository-code: "https://github.com/computational-decision-lab/deployment-utility-evaluation"
-url: "https://github.com/computational-decision-lab/deployment-utility-evaluation"
+repository-code: "https://github.com/computational-decision-lab/policy-update-deployment-utility"
+url: "https://github.com/computational-decision-lab/policy-update-deployment-utility"
 authors:
   - name: "Computational Decision Lab"
 abstract: "Portable saved-outcome reanalysis code and data for procedure-level deployment utility evaluation."

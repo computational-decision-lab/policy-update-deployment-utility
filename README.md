@@ -2,6 +2,8 @@
 
 Release `202611050855` accompanies the paper *Evaluating the Deployment Utility of a Frozen Policy-Update Procedure: Scale, Completion Preference, and Joint Evidence*.
 
+Repository: <https://github.com/computational-decision-lab/policy-update-deployment-utility>
+
 This repository contains the portable saved-outcome reanalysis package. It includes the manuscript and supplement source, the classic Beamer presentation source, the technical reading note, the saved market outcomes, and the scripts that rebuild all reported tables, figures, and diagnostics. The package does not contain raw generation transcripts, full exchange event streams, or private comparison materials.
 
 The main paper is an applied policy-evaluation study. Its primary statistical unit is the independent generation root (`n = 50`); the `2,400` paired deployment rows are repeated observations within that clustered design. The release performs no new model calls, candidate selections, or market simulations.
