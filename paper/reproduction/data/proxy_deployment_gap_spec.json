@@ -1,0 +1,29 @@
+{
+  "schema": "proxy-deployment-gap-diagnostic-v1",
+  "identity": "proxy-deployment-gap-v1",
+  "evidence_class": "post-outcome diagnostic",
+  "outcome_aware": true,
+  "selection_scale": 0.05,
+  "utility_preference_bps": 100,
+  "root_count": 50,
+  "deployment_replicates_per_root_cell": 4,
+  "cells": [
+    "liquid_market:rho0",
+    "liquid_market:rho1",
+    "thin_market:rho0",
+    "thin_market:rho1"
+  ],
+  "contrast": "root-level selected proxy gain minus mean paired interactive deployment gain",
+  "no_update": "retain the incumbent and assign zero proxy and deployment gain",
+  "bootstrap_draws": 20000,
+  "bootstrap_seed_sha256": "8a0740903a268e41f9e76ad63baef1909db421619d352212c5150de4fb5aeba1",
+  "rng": "Python random.Random seeded by the integer represented by bootstrap_seed_sha256",
+  "confidence": 0.95,
+  "method": "whole-root bootstrap with one unstandardized max-absolute-deviation radius across the four paired gaps",
+  "family_size": 4,
+  "coverage_scope": "approximate simultaneous 95% family conditional on the frozen 50-root cohort; separate from the original 24-estimate family and other outcome-aware diagnostics",
+  "interpretation_limit": "The proxy-to-interactive gap does not identify causal proxy bias; it may reflect winner selection, finite proxy-sample noise, and replay-versus-interactive environment differences.",
+  "new_selections": 0,
+  "new_simulations": 0,
+  "new_model_calls": 0
+}

@@ -1,0 +1,47 @@
+{
+  "schema": "proxy-deployment-gap-reference-v1",
+  "selection_scale": 0.05,
+  "root_clusters": 50,
+  "family_size": 4,
+  "bootstrap_draws": 20000,
+  "bootstrap_seed_sha256": "8a0740903a268e41f9e76ad63baef1909db421619d352212c5150de4fb5aeba1",
+  "joint_radius_bps": 0.6646928379240162,
+  "estimates": {
+    "liquid_market:rho0": {
+      "proxy_mean_bps": 0.9721395307810695,
+      "deployment_mean_bps": -0.34196043382151153,
+      "gap": {
+        "estimate_bps": 1.3140999646025813,
+        "lower_bps": 0.649407126678565,
+        "upper_bps": 1.9787928025265975
+      }
+    },
+    "liquid_market:rho1": {
+      "proxy_mean_bps": 0.9721395307810695,
+      "deployment_mean_bps": -0.3218996501454715,
+      "gap": {
+        "estimate_bps": 1.2940391809265415,
+        "lower_bps": 0.6293463430025252,
+        "upper_bps": 1.9587320188505577
+      }
+    },
+    "thin_market:rho0": {
+      "proxy_mean_bps": 1.4219104810415686,
+      "deployment_mean_bps": 0.46953348484548135,
+      "gap": {
+        "estimate_bps": 0.952376996196087,
+        "lower_bps": 0.2876841582720707,
+        "upper_bps": 1.617069834120103
+      }
+    },
+    "thin_market:rho1": {
+      "proxy_mean_bps": 1.4219104810415686,
+      "deployment_mean_bps": 0.3649599648490731,
+      "gap": {
+        "estimate_bps": 1.0569505161924952,
+        "lower_bps": 0.392257678268479,
+        "upper_bps": 1.7216433541165115
+      }
+    }
+  }
+}

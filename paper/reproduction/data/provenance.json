@@ -1,0 +1,39 @@
+{
+  "break_even_component_family_size": 8,
+  "diagnostic_family_size": 64,
+  "files": {
+    "break_even_expected.json": "f0857f738275ad2cca3af1e1d0d24881cee804b4ec7ff906eb68d8f7074df3d6",
+    "break_even_spec.json": "13f2a1d2d919cfca7974955af24c7d00995425197194ce34d17e32db5624a147",
+    "expected.json": "50b273020636f0b1b3e71806e5ba1cc03babca911f48bfb06ad65502965aa479",
+    "market_observations.csv": "f17d1fa78b49e75ef67f14f2ccb38f0c2421fa4b39cdc4f56006c0aee2421855",
+    "planner_scores.json": "5eca86741609d522dbf39b4e7528a6acce0657c36cb5c23cc5c2eabd39638b8e",
+    "proxy_deployment_gap_expected.json": "fa7fcea024de39479e5a7028c3c682aa3197c74af5afbefcda816990c308f476",
+    "proxy_deployment_gap_spec.json": "4857df15524e05bc0ad0a57f7f7bbcbdd5c329c52b44e7e58bfa780571de8164",
+    "root_robustness_expected.json": "79d690c60568e8eec124c08239e6d6fdef96390e626983f430409f4e898f0b69",
+    "root_robustness_spec.json": "83dd8a6a865098448c7aa20a08b3db2f51d0ccf21dcbc99ebb2580cdd0738ab6"
+  },
+  "input_scope": "202611050855 minimized saved outcomes and separately scoped post-outcome diagnostics; no raw generation or event replay",
+  "new_model_calls": 0,
+  "new_selections": 0,
+  "new_simulations": 0,
+  "original_family_size": 24,
+  "proxy_deployment_gap_family_size": 4,
+  "schema": "frozen-procedure-portable-evidence-v3",
+  "source_sha256": {
+    "market/analysis.json": "be577f44cb3cd70f2cbc6b42a52067a8cdccd4bf0eccf029b9d4ec68b0d0e740",
+    "market/paired_replicates.jsonl": "2b3e42ce8dce692c9cdd506281ea3647aa1784885c9205630a1849670c97b7e6",
+    "market/protocol.json": "c9bde6d7f0d1bbef2e38ba1fd9939fb7ff422dc9cf3aaf0ab31f024665cb5bf2",
+    "market/selection.jsonl": "fc4a70b2c45784c2d0eb12776ce2db70657fd33b363c5474080c7f9c7f800ba5",
+    "paper/independent_market_provenance.json": "f41daf85bd1ff55bf88ee1938555467ec832d395decc55ddcde80caff9e73972",
+    "paper/reproduction/proxy_deployment_gap_expected.json": "fa7fcea024de39479e5a7028c3c682aa3197c74af5afbefcda816990c308f476",
+    "paper/reproduction/proxy_deployment_gap_spec.json": "4857df15524e05bc0ad0a57f7f7bbcbdd5c329c52b44e7e58bfa780571de8164",
+    "paper/secondary_evidence_provenance.json": "aed3bc99f73fa2c98c6e90ca04da05c4307bed5b64ce0553adad8bc2556fe944",
+    "penalty/analysis.json": "8d148eda0a1e4272d9a889ccbb2537d3c2390059c613315039fba008817331de",
+    "penalty/arithmetic_receipt.json": "36cc4381ab8ba9175fa2dbb2dcc58938b9215420e9d2ba831b0e10331ab54e26",
+    "penalty/paired_sensitivity.csv": "881b83fe9a20ba0a4ea89b59d0d280ac6da8b3c556b3bc11fd9b5d901ec35437",
+    "planner/analysis.json": "8ccffd6d9e38f53a30c0372a6483792ddf82f015abd631ff2780ddf74bfaf415",
+    "planner/deployment.json": "bc56f22562ce4fdf832ff7e742419d835361a9d6966bf07acbe971ef9d3d0994",
+    "planner/freeze.json": "5301c25b552f78162b0d44e63b82ceca9d05065ccc08b4901b512365f436177b",
+    "planner/proxy.json": "0135691d90f4500641a5f2761ab8f30ef85da7132bd468178a03cfe1610dfab0"
+  }
+}

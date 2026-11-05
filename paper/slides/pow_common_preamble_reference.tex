@@ -1,0 +1,48 @@
+\documentclass[aspectratio=169,10pt]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,booktabs,graphicx,tabularx,array,microtype}
+\usepackage{appendixnumberbeamer}
+\input{../../publication_tables.tex}
+
+\usetheme{Copenhagen}
+\usecolortheme{whale}
+\usefonttheme{professionalfonts}
+\usefonttheme{serif}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{footline}{%
+  \begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.1ex,leftskip=1em,rightskip=1em]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshorttitle\hfill\insertframenumber/\inserttotalframenumber
+  \end{beamercolorbox}%
+}
+\definecolor{paperblue}{HTML}{1D409E}
+\definecolor{paperorange}{HTML}{D55E00}
+\definecolor{paperteal}{HTML}{009E73}
+\definecolor{papergray}{HTML}{66717E}
+\definecolor{paperink}{HTML}{20252B}
+\definecolor{paperlight}{HTML}{EAF1F8}
+\setbeamercolor{normal text}{fg=paperink,bg=white}
+\setbeamercolor{alerted text}{fg=paperblue}
+\setbeamercolor{frametitle}{fg=white,bg=paperblue}
+\setbeamercolor{title}{fg=white}
+\setbeamercolor{subtitle}{fg=paperlight}
+\setbeamercolor{structure}{fg=paperblue}
+\setbeamercolor{palette primary}{fg=white,bg=paperblue}
+\setbeamercolor{palette secondary}{fg=white,bg=paperblue!85!black}
+\setbeamercolor{palette tertiary}{fg=white,bg=paperblue!70!black}
+\setbeamercolor{author in head/foot}{fg=white,bg=paperblue!85!black}
+\setbeamercolor{block title}{fg=paperblue,bg=paperblue!9}
+\setbeamercolor{block body}{fg=paperink,bg=paperblue!4}
+\setbeamercolor{alertblock title}{fg=white,bg=paperblue!88!black}
+\setbeamercolor{alertblock body}{fg=paperink,bg=paperblue!6}
+\setbeamerfont{title}{size=\LARGE,series=\bfseries}
+\setbeamerfont{subtitle}{size=\large,series=\mdseries}
+\setbeamerfont{frametitle}{size=\large,series=\bfseries}
+\setbeamerfont{caption}{size=\scriptsize}
+\setlength{\parskip}{0.2em}
+
+\newcommand{\tightitem}{\itemsep0.25em\parskip0pt}
+\newcommand{\metric}[3]{\begin{beamercolorbox}[wd=#1,sep=0.45em,center]{block body}\textcolor{papergray}{\small #2}\par\vspace{0.1em}{\large\bfseries #3}\end{beamercolorbox}}
+\newcommand{\smallcaps}[1]{\textcolor{paperblue}{\small\bfseries #1}}
+\newcommand{\source}[1]{\vspace{0.25em}{\tiny\color{papergray}Source: #1}}

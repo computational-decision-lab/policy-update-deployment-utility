@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+title: "Evaluating the Deployment Utility of a Frozen Policy-Update Procedure"
+message: "Please cite the dated release used for your analysis."
+type: software
+version: "202611050855"
+date-released: 2026-11-05
+repository-code: "https://github.com/computational-decision-lab/deployment-utility-evaluation"
+url: "https://github.com/computational-decision-lab/deployment-utility-evaluation"
+authors:
+  - name: "Computational Decision Lab"
+abstract: "Portable saved-outcome reanalysis code and data for procedure-level deployment utility evaluation."
+keywords:
+  - policy evaluation
+  - deployment utility
+  - reproducibility
+  - interactive simulation

@@ -1,0 +1,208 @@
+{
+  "analysis_spec": {
+    "cells": [
+      "liquid_market:rho0",
+      "liquid_market:rho1",
+      "thin_market:rho0",
+      "thin_market:rho1"
+    ],
+    "confidence": 0.95,
+    "coverage_scope": "approximate simultaneous eight-component family conditional on frozen synthetic population, separate from original24 and diagnostic64; no joint coverage across analyses",
+    "created_at": "2026-11-03T16:20:01.614858+00:00",
+    "draws": 20000,
+    "family_size": 8,
+    "method": "whole-root bootstrap; fixed-sample-SE maximum across eight component means; project simultaneous rectangle onto nonnegative roots of a+p*b=0",
+    "new_selections": 0,
+    "new_simulations": 0,
+    "outcome_aware": true,
+    "penalty_domain": "p >= 0, bps",
+    "prior_inspection": "V5 component table and unrounded component means/standard errors were inspected before this diagnostic was specified. This is not preregistered.",
+    "ratio_estimand": "ratio of population mean components; not mean root ratio",
+    "replicates_per_root_cell": 4,
+    "rng": "numpy.PCG64",
+    "roots": [
+      8101,
+      8102,
+      8103,
+      8104,
+      8105,
+      8106,
+      8107,
+      8108,
+      8109,
+      8110,
+      8111,
+      8112,
+      8113,
+      8114,
+      8115,
+      8116,
+      8117,
+      8118,
+      8119,
+      8120,
+      8121,
+      8122,
+      8123,
+      8124,
+      8125,
+      8126,
+      8127,
+      8128,
+      8129,
+      8130,
+      8131,
+      8132,
+      8133,
+      8134,
+      8135,
+      8136,
+      8137,
+      8138,
+      8139,
+      8140,
+      8141,
+      8142,
+      8143,
+      8144,
+      8145,
+      8146,
+      8147,
+      8148,
+      8149,
+      8150
+    ],
+    "scale": 0.3,
+    "schema": "fixed-selection-break-even-diagnostic-v1",
+    "secondary_ratio_summary": "untrimmed pointwise percentile ratios only when all resampled denominators have the observed sign; otherwise omit the percentile interval and record instability counts",
+    "seed": 20261104,
+    "selection_utility_bps": 100,
+    "zero_denominator": "report undefined point ratio; confidence projection may be unbounded or empty; no bootstrap draws discarded"
+  },
+  "cells": {
+    "liquid_market:rho0": {
+      "a_joint_interval_bps": [
+        -0.15098833211409565,
+        0.26026672467007006
+      ],
+      "b_interval_contains_zero": false,
+      "b_joint_interval_fraction": [
+        -0.20286767618063106,
+        -0.037825287572034086
+      ],
+      "break_even": {
+        "opposite_sign_denominator_draws": 3,
+        "percentile_pointwise_bps": null,
+        "percentile_status": "omitted-unstable-denominator",
+        "point_bps": 0.45401573378882965,
+        "zero_denominator_draws": 0
+      },
+      "gain_at_100_bps": -11.98000899135527,
+      "nonnegative_joint_confidence_set": {
+        "kind": "bounded",
+        "lower_bps": 0.0,
+        "upper_bps": 6.880759972397323
+      },
+      "shortfall_gain_bps": 0.05463919627798722,
+      "unfilled_difference_pp": -12.034648187633257,
+      "unfilled_fraction_gain": -0.12034648187633257
+    },
+    "liquid_market:rho1": {
+      "a_joint_interval_bps": [
+        0.0546396795471521,
+        0.8043214346980234
+      ],
+      "b_interval_contains_zero": false,
+      "b_joint_interval_fraction": [
+        -0.21018894393794113,
+        -0.04409677034777315
+      ],
+      "break_even": {
+        "opposite_sign_denominator_draws": 3,
+        "percentile_pointwise_bps": null,
+        "percentile_status": "omitted-unstable-denominator",
+        "point_bps": 3.3779369661327125,
+        "zero_denominator_draws": 0
+      },
+      "gain_at_100_bps": -12.284805157163126,
+      "nonnegative_joint_confidence_set": {
+        "kind": "bounded",
+        "lower_bps": 0.2599550600686429,
+        "upper_bps": 18.2399170813343
+      },
+      "shortfall_gain_bps": 0.42948055712258776,
+      "unfilled_difference_pp": -12.714285714285714,
+      "unfilled_fraction_gain": -0.12714285714285714
+    },
+    "thin_market:rho0": {
+      "a_joint_interval_bps": [
+        0.6313838972643353,
+        1.0269353855986076
+      ],
+      "b_interval_contains_zero": false,
+      "b_joint_interval_fraction": [
+        -0.2651267422766165,
+        -0.19160281747181102
+      ],
+      "break_even": {
+        "opposite_sign_denominator_draws": 0,
+        "percentile_pointwise_bps": [
+          3.113123202486881,
+          4.150550085816728
+        ],
+        "percentile_status": "reported-all-draws",
+        "point_bps": 3.6308560448252276,
+        "zero_denominator_draws": 0
+      },
+      "gain_at_100_bps": -22.007318345989905,
+      "nonnegative_joint_confidence_set": {
+        "kind": "bounded",
+        "lower_bps": 2.38144176571064,
+        "upper_bps": 5.359709210694109
+      },
+      "shortfall_gain_bps": 0.8291596414314715,
+      "unfilled_difference_pp": -22.836477987421375,
+      "unfilled_fraction_gain": -0.22836477987421375
+    },
+    "thin_market:rho1": {
+      "a_joint_interval_bps": [
+        0.9537097455128368,
+        1.4379497442188518
+      ],
+      "b_interval_contains_zero": false,
+      "b_joint_interval_fraction": [
+        -0.26517847745634865,
+        -0.1916296986442801
+      ],
+      "break_even": {
+        "opposite_sign_denominator_draws": 0,
+        "percentile_pointwise_bps": [
+          4.70229888635767,
+          5.767701314834101
+        ],
+        "percentile_status": "reported-all-draws",
+        "point_bps": 5.235588185279849,
+        "zero_denominator_draws": 0
+      },
+      "gain_at_100_bps": -21.644579060165594,
+      "nonnegative_joint_confidence_set": {
+        "kind": "bounded",
+        "lower_bps": 3.5964824696975195,
+        "upper_bps": 7.503793798100683
+      },
+      "shortfall_gain_bps": 1.1958297448658444,
+      "unfilled_difference_pp": -22.840408805031437,
+      "unfilled_fraction_gain": -0.22840408805031437
+    }
+  },
+  "confidence": 0.95,
+  "data_sha256": "f17d1fa78b49e75ef67f14f2ccb38f0c2421fa4b39cdc4f56006c0aee2421855",
+  "discarded_bootstrap_draws": 0,
+  "draws": 20000,
+  "family_size": 8,
+  "fixed_se_max_critical_value": 2.5127687307906763,
+  "new_selections": 0,
+  "root_clusters": 50,
+  "seed": 20261104,
+  "status": "completed-post-outcome-break-even-diagnostic"
+}

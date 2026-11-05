@@ -1,0 +1,623 @@
+{
+  "market": {
+    "bootstrap_seed_sha256": "8d999ee66303eea895a5e8cfd77885b6dc9e835cd813b3e9b9e70aa4865e5fb7",
+    "estimates": {
+      "cell:liquid_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -6.4143992364507225,
+        "upper_bps": 6.4143992364507225
+      },
+      "cell:liquid_market:rho0:0.05": {
+        "estimate_bps": -0.34196043382151153,
+        "lower_bps": -6.756359670272234,
+        "upper_bps": 6.072438802629211
+      },
+      "cell:liquid_market:rho0:0.3": {
+        "estimate_bps": -11.98000899135527,
+        "lower_bps": -18.394408227805993,
+        "upper_bps": -5.565609754904547
+      },
+      "cell:liquid_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -6.4143992364507225,
+        "upper_bps": 6.4143992364507225
+      },
+      "cell:liquid_market:rho1:0.05": {
+        "estimate_bps": -0.3218996501454715,
+        "lower_bps": -6.736298886596194,
+        "upper_bps": 6.092499586305251
+      },
+      "cell:liquid_market:rho1:0.3": {
+        "estimate_bps": -12.284805157163124,
+        "lower_bps": -18.699204393613847,
+        "upper_bps": -5.870405920712401
+      },
+      "cell:thin_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -6.4143992364507225,
+        "upper_bps": 6.4143992364507225
+      },
+      "cell:thin_market:rho0:0.05": {
+        "estimate_bps": 0.46953348484548135,
+        "lower_bps": -5.944865751605241,
+        "upper_bps": 6.883932721296204
+      },
+      "cell:thin_market:rho0:0.3": {
+        "estimate_bps": -22.007318345989905,
+        "lower_bps": -28.42171758244063,
+        "upper_bps": -15.592919109539181
+      },
+      "cell:thin_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -6.4143992364507225,
+        "upper_bps": 6.4143992364507225
+      },
+      "cell:thin_market:rho1:0.05": {
+        "estimate_bps": 0.3649599648490731,
+        "lower_bps": -6.049439271601649,
+        "upper_bps": 6.779359201299796
+      },
+      "cell:thin_market:rho1:0.3": {
+        "estimate_bps": -21.644579060165597,
+        "lower_bps": -28.05897829661632,
+        "upper_bps": -15.230179823714874
+      },
+      "did:liquid_market": {
+        "estimate_bps": -0.30479616580785335,
+        "lower_bps": -6.719195402258576,
+        "upper_bps": 6.109603070642869
+      },
+      "did:thin_market": {
+        "estimate_bps": 0.3627392858243093,
+        "lower_bps": -6.051659950626413,
+        "upper_bps": 6.777138522275032
+      },
+      "response:liquid_market:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -6.4143992364507225,
+        "upper_bps": 6.4143992364507225
+      },
+      "response:liquid_market:0.05": {
+        "estimate_bps": 0.020060783676040063,
+        "lower_bps": -6.394338452774682,
+        "upper_bps": 6.434460020126763
+      },
+      "response:liquid_market:0.3": {
+        "estimate_bps": -0.30479616580785335,
+        "lower_bps": -6.719195402258576,
+        "upper_bps": 6.109603070642869
+      },
+      "response:thin_market:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -6.4143992364507225,
+        "upper_bps": 6.4143992364507225
+      },
+      "response:thin_market:0.05": {
+        "estimate_bps": -0.10457351999640829,
+        "lower_bps": -6.5189727564471305,
+        "upper_bps": 6.309825716454315
+      },
+      "response:thin_market:0.3": {
+        "estimate_bps": 0.3627392858243093,
+        "lower_bps": -6.051659950626413,
+        "upper_bps": 6.777138522275032
+      },
+      "scale:liquid_market:rho0": {
+        "estimate_bps": -11.98000899135527,
+        "lower_bps": -18.394408227805993,
+        "upper_bps": -5.565609754904547
+      },
+      "scale:liquid_market:rho1": {
+        "estimate_bps": -12.284805157163124,
+        "lower_bps": -18.699204393613847,
+        "upper_bps": -5.870405920712401
+      },
+      "scale:thin_market:rho0": {
+        "estimate_bps": -22.007318345989905,
+        "lower_bps": -28.42171758244063,
+        "upper_bps": -15.592919109539181
+      },
+      "scale:thin_market:rho1": {
+        "estimate_bps": -21.644579060165597,
+        "lower_bps": -28.05897829661632,
+        "upper_bps": -15.230179823714874
+      }
+    },
+    "joint_radius_bps": 6.4143992364507225,
+    "proxy_positive_reversal": {
+      "liquid_market:rho0:0.002": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.0,
+          0.07270029673590504
+        ],
+        "numerator": 0,
+        "rate": 0.0,
+        "scope": "descriptive outside joint24 family"
+      },
+      "liquid_market:rho0:0.05": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.49266811386889864,
+          0.7533501747521878
+        ],
+        "numerator": 31,
+        "rate": 0.6326530612244898,
+        "scope": "descriptive outside joint24 family"
+      },
+      "liquid_market:rho0:0.3": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.619134127396842,
+          0.8539779661052471
+        ],
+        "numerator": 37,
+        "rate": 0.7551020408163265,
+        "scope": "descriptive outside joint24 family"
+      },
+      "liquid_market:rho1:0.002": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.0,
+          0.07270029673590504
+        ],
+        "numerator": 0,
+        "rate": 0.0,
+        "scope": "descriptive outside joint24 family"
+      },
+      "liquid_market:rho1:0.05": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.49266811386889864,
+          0.7533501747521878
+        ],
+        "numerator": 31,
+        "rate": 0.6326530612244898,
+        "scope": "descriptive outside joint24 family"
+      },
+      "liquid_market:rho1:0.3": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.619134127396842,
+          0.8539779661052471
+        ],
+        "numerator": 37,
+        "rate": 0.7551020408163265,
+        "scope": "descriptive outside joint24 family"
+      },
+      "thin_market:rho0:0.002": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.0,
+          0.07270029673590504
+        ],
+        "numerator": 0,
+        "rate": 0.0,
+        "scope": "descriptive outside joint24 family"
+      },
+      "thin_market:rho0:0.05": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.26428814373960496,
+          0.5275425351194757
+        ],
+        "numerator": 19,
+        "rate": 0.3877551020408163,
+        "scope": "descriptive outside joint24 family"
+      },
+      "thin_market:rho0:0.3": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.8930623153224584,
+          0.9963884204614692
+        ],
+        "numerator": 48,
+        "rate": 0.9795918367346939,
+        "scope": "descriptive outside joint24 family"
+      },
+      "thin_market:rho1:0.002": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.0,
+          0.07270029673590504
+        ],
+        "numerator": 0,
+        "rate": 0.0,
+        "scope": "descriptive outside joint24 family"
+      },
+      "thin_market:rho1:0.05": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.26428814373960496,
+          0.5275425351194757
+        ],
+        "numerator": 19,
+        "rate": 0.3877551020408163,
+        "scope": "descriptive outside joint24 family"
+      },
+      "thin_market:rho1:0.3": {
+        "denominator": 49,
+        "descriptive_wilson_interval_95": [
+          0.8930623153224584,
+          0.9963884204614692
+        ],
+        "numerator": 48,
+        "rate": 0.9795918367346939,
+        "scope": "descriptive outside joint24 family"
+      }
+    }
+  },
+  "penalty": {
+    "bootstrap_seed_sha256": "c1c5f1255d07b3171994cc4ac264288c699eadea51d63cae7fe2805f034bc961",
+    "estimates": {
+      "cell:p100:liquid_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p100:liquid_market:rho0:0.05": {
+        "estimate_bps": -0.34196043382151153,
+        "lower_bps": -13.12352142388721,
+        "upper_bps": 12.439600556244185
+      },
+      "cell:p100:liquid_market:rho0:0.3": {
+        "estimate_bps": -11.98000899135527,
+        "lower_bps": -24.76156998142097,
+        "upper_bps": 0.801551998710428
+      },
+      "cell:p100:liquid_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p100:liquid_market:rho1:0.05": {
+        "estimate_bps": -0.3218996501454715,
+        "lower_bps": -13.10346064021117,
+        "upper_bps": 12.459661339920226
+      },
+      "cell:p100:liquid_market:rho1:0.3": {
+        "estimate_bps": -12.284805157163124,
+        "lower_bps": -25.06636614722882,
+        "upper_bps": 0.49675583290257386
+      },
+      "cell:p100:thin_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p100:thin_market:rho0:0.05": {
+        "estimate_bps": 0.46953348484548135,
+        "lower_bps": -12.312027505220216,
+        "upper_bps": 13.251094474911179
+      },
+      "cell:p100:thin_market:rho0:0.3": {
+        "estimate_bps": -22.007318345989905,
+        "lower_bps": -34.7888793360556,
+        "upper_bps": -9.225757355924207
+      },
+      "cell:p100:thin_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p100:thin_market:rho1:0.05": {
+        "estimate_bps": 0.3649599648490731,
+        "lower_bps": -12.416601025216625,
+        "upper_bps": 13.14652095491477
+      },
+      "cell:p100:thin_market:rho1:0.3": {
+        "estimate_bps": -21.644579060165597,
+        "lower_bps": -34.4261400502313,
+        "upper_bps": -8.8630180700999
+      },
+      "cell:p200:liquid_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p200:liquid_market:rho0:0.05": {
+        "estimate_bps": -0.34515532200042537,
+        "lower_bps": -13.126716312066122,
+        "upper_bps": 12.436405668065273
+      },
+      "cell:p200:liquid_market:rho0:0.3": {
+        "estimate_bps": -24.014657178988532,
+        "lower_bps": -36.79621816905423,
+        "upper_bps": -11.233096188922834
+      },
+      "cell:p200:liquid_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p200:liquid_market:rho1:0.05": {
+        "estimate_bps": -0.32349709423492834,
+        "lower_bps": -13.105058084300627,
+        "upper_bps": 12.458063895830769
+      },
+      "cell:p200:liquid_market:rho1:0.3": {
+        "estimate_bps": -24.99909087144883,
+        "lower_bps": -37.78065186151453,
+        "upper_bps": -12.21752988138313
+      },
+      "cell:p200:thin_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p200:thin_market:rho0:0.05": {
+        "estimate_bps": 0.46953348484548135,
+        "lower_bps": -12.312027505220216,
+        "upper_bps": 13.251094474911179
+      },
+      "cell:p200:thin_market:rho0:0.3": {
+        "estimate_bps": -44.84379633341128,
+        "lower_bps": -57.625357323476976,
+        "upper_bps": -32.06223534334558
+      },
+      "cell:p200:thin_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p200:thin_market:rho1:0.05": {
+        "estimate_bps": 0.3649599648490731,
+        "lower_bps": -12.416601025216625,
+        "upper_bps": 13.14652095491477
+      },
+      "cell:p200:thin_market:rho1:0.3": {
+        "estimate_bps": -44.484987865197034,
+        "lower_bps": -57.266548855262734,
+        "upper_bps": -31.703426875131335
+      },
+      "cell:p25:liquid_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p25:liquid_market:rho0:0.05": {
+        "estimate_bps": -0.33956426768732617,
+        "lower_bps": -13.121125257753024,
+        "upper_bps": 12.441996722378372
+      },
+      "cell:p25:liquid_market:rho0:0.3": {
+        "estimate_bps": -2.9540228506303263,
+        "lower_bps": -15.735583840696023,
+        "upper_bps": 9.827538139435372
+      },
+      "cell:p25:liquid_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p25:liquid_market:rho1:0.05": {
+        "estimate_bps": -0.3207015670783788,
+        "lower_bps": -13.102262557144076,
+        "upper_bps": 12.460859422987319
+      },
+      "cell:p25:liquid_market:rho1:0.3": {
+        "estimate_bps": -2.749090871448839,
+        "lower_bps": -15.530651861514537,
+        "upper_bps": 10.032470118616859
+      },
+      "cell:p25:thin_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p25:thin_market:rho0:0.05": {
+        "estimate_bps": 0.46953348484548135,
+        "lower_bps": -12.312027505220216,
+        "upper_bps": 13.251094474911179
+      },
+      "cell:p25:thin_market:rho0:0.3": {
+        "estimate_bps": -4.879959855423873,
+        "lower_bps": -17.66152084548957,
+        "upper_bps": 7.901601134641825
+      },
+      "cell:p25:thin_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p25:thin_market:rho1:0.05": {
+        "estimate_bps": 0.3649599648490731,
+        "lower_bps": -12.416601025216625,
+        "upper_bps": 13.14652095491477
+      },
+      "cell:p25:thin_market:rho1:0.3": {
+        "estimate_bps": -4.514272456392016,
+        "lower_bps": -17.295833446457713,
+        "upper_bps": 8.267288533673682
+      },
+      "cell:p50:liquid_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p50:liquid_market:rho0:0.05": {
+        "estimate_bps": -0.3403629897320547,
+        "lower_bps": -13.121923979797753,
+        "upper_bps": 12.441198000333642
+      },
+      "cell:p50:liquid_market:rho0:0.3": {
+        "estimate_bps": -5.962684897538643,
+        "lower_bps": -18.74424588760434,
+        "upper_bps": 6.818876092527055
+      },
+      "cell:p50:liquid_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p50:liquid_market:rho1:0.05": {
+        "estimate_bps": -0.3211009281007431,
+        "lower_bps": -13.10266191816644,
+        "upper_bps": 12.460460061964955
+      },
+      "cell:p50:liquid_market:rho1:0.3": {
+        "estimate_bps": -5.927662300020268,
+        "lower_bps": -18.709223290085966,
+        "upper_bps": 6.85389869004543
+      },
+      "cell:p50:thin_market:rho0:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p50:thin_market:rho0:0.05": {
+        "estimate_bps": 0.46953348484548135,
+        "lower_bps": -12.312027505220216,
+        "upper_bps": 13.251094474911179
+      },
+      "cell:p50:thin_market:rho0:0.3": {
+        "estimate_bps": -10.589079352279219,
+        "lower_bps": -23.370640342344917,
+        "upper_bps": 2.1924816377864786
+      },
+      "cell:p50:thin_market:rho1:0.002": {
+        "estimate_bps": 0.0,
+        "lower_bps": -12.781560990065698,
+        "upper_bps": 12.781560990065698
+      },
+      "cell:p50:thin_market:rho1:0.05": {
+        "estimate_bps": 0.3649599648490731,
+        "lower_bps": -12.416601025216625,
+        "upper_bps": 13.14652095491477
+      },
+      "cell:p50:thin_market:rho1:0.3": {
+        "estimate_bps": -10.224374657649877,
+        "lower_bps": -23.005935647715575,
+        "upper_bps": 2.557186332415821
+      },
+      "scale:p100:liquid_market:rho0": {
+        "estimate_bps": -11.98000899135527,
+        "lower_bps": -24.76156998142097,
+        "upper_bps": 0.801551998710428
+      },
+      "scale:p100:liquid_market:rho1": {
+        "estimate_bps": -12.284805157163124,
+        "lower_bps": -25.06636614722882,
+        "upper_bps": 0.49675583290257386
+      },
+      "scale:p100:thin_market:rho0": {
+        "estimate_bps": -22.007318345989905,
+        "lower_bps": -34.7888793360556,
+        "upper_bps": -9.225757355924207
+      },
+      "scale:p100:thin_market:rho1": {
+        "estimate_bps": -21.644579060165597,
+        "lower_bps": -34.4261400502313,
+        "upper_bps": -8.8630180700999
+      },
+      "scale:p200:liquid_market:rho0": {
+        "estimate_bps": -24.014657178988532,
+        "lower_bps": -36.79621816905423,
+        "upper_bps": -11.233096188922834
+      },
+      "scale:p200:liquid_market:rho1": {
+        "estimate_bps": -24.99909087144883,
+        "lower_bps": -37.78065186151453,
+        "upper_bps": -12.21752988138313
+      },
+      "scale:p200:thin_market:rho0": {
+        "estimate_bps": -44.84379633341128,
+        "lower_bps": -57.625357323476976,
+        "upper_bps": -32.06223534334558
+      },
+      "scale:p200:thin_market:rho1": {
+        "estimate_bps": -44.484987865197034,
+        "lower_bps": -57.266548855262734,
+        "upper_bps": -31.703426875131335
+      },
+      "scale:p25:liquid_market:rho0": {
+        "estimate_bps": -2.9540228506303263,
+        "lower_bps": -15.735583840696023,
+        "upper_bps": 9.827538139435372
+      },
+      "scale:p25:liquid_market:rho1": {
+        "estimate_bps": -2.749090871448839,
+        "lower_bps": -15.530651861514537,
+        "upper_bps": 10.032470118616859
+      },
+      "scale:p25:thin_market:rho0": {
+        "estimate_bps": -4.879959855423873,
+        "lower_bps": -17.66152084548957,
+        "upper_bps": 7.901601134641825
+      },
+      "scale:p25:thin_market:rho1": {
+        "estimate_bps": -4.514272456392016,
+        "lower_bps": -17.295833446457713,
+        "upper_bps": 8.267288533673682
+      },
+      "scale:p50:liquid_market:rho0": {
+        "estimate_bps": -5.962684897538643,
+        "lower_bps": -18.74424588760434,
+        "upper_bps": 6.818876092527055
+      },
+      "scale:p50:liquid_market:rho1": {
+        "estimate_bps": -5.927662300020268,
+        "lower_bps": -18.709223290085966,
+        "upper_bps": 6.85389869004543
+      },
+      "scale:p50:thin_market:rho0": {
+        "estimate_bps": -10.589079352279219,
+        "lower_bps": -23.370640342344917,
+        "upper_bps": 2.1924816377864786
+      },
+      "scale:p50:thin_market:rho1": {
+        "estimate_bps": -10.224374657649877,
+        "lower_bps": -23.005935647715575,
+        "upper_bps": 2.557186332415821
+      }
+    },
+    "joint_radius_bps": 12.781560990065698
+  },
+  "planner": {
+    "16": {
+      "crossed_root_task_ci95": [
+        0.02023283700498865,
+        0.08880314003815849
+      ],
+      "deployment_gain": 0.05302500280922097,
+      "no_update_roots": 0,
+      "proxy_gain": 0.06436542185212836
+    },
+    "2": {
+      "crossed_root_task_ci95": [
+        0.014669465285003893,
+        0.07668665698020355
+      ],
+      "deployment_gain": 0.045111457260905374,
+      "no_update_roots": 0,
+      "proxy_gain": 0.0424843824307101
+    },
+    "32": {
+      "crossed_root_task_ci95": [
+        0.02023283700498865,
+        0.08880314003815849
+      ],
+      "deployment_gain": 0.05302500280922097,
+      "no_update_roots": 0,
+      "proxy_gain": 0.06436542185212836
+    },
+    "4": {
+      "crossed_root_task_ci95": [
+        0.015493862576256704,
+        0.08297696288309662
+      ],
+      "deployment_gain": 0.04797771748382971,
+      "no_update_roots": 0,
+      "proxy_gain": 0.05881959240924011
+    },
+    "8": {
+      "crossed_root_task_ci95": [
+        0.017016639094692854,
+        0.08691104739120804
+      ],
+      "deployment_gain": 0.0505951631248002,
+      "no_update_roots": 0,
+      "proxy_gain": 0.06218288216958869
+    }
+  }
+}

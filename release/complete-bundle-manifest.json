@@ -1,0 +1,42 @@
+{
+  "release": "202611050855",
+  "bundle": "tmlr-deployment-utility-202611050855-complete.pdf",
+  "components": {
+    "01_manuscript.pdf": {
+      "pages": 1,
+      "sha256": "970e831e39b61288d47f4d173cdc5d8c881e84da72f53f7680b456a500c8cea3"
+    },
+    "02_supplement.pdf": {
+      "pages": 1,
+      "sha256": "1fb05dbb4886e270a1cb2998f61c64a9c34c07596fef3dfeb5ba7aa8bb8f1dab"
+    },
+    "03_slides.pdf": {
+      "pages": 1,
+      "sha256": "55a4fb56d77bd3ded865f36de768b8c9117e9b73bbca7f1ab0b19485f8ba042e"
+    },
+    "04_blog.pdf": {
+      "pages": 1,
+      "sha256": "783fb162f25caca7afa4605367120e95ea95c8b8edb160c8b2148d8177f96d8f"
+    },
+    "tmlr-deployment-utility-202611050855-main.pdf": {
+      "pages": 19,
+      "sha256": "12ca8dd0ab0bef0380c27456198993ac1415e1608e1870e32d6f01a5bea80050"
+    },
+    "tmlr-deployment-utility-202611050855-supplement.pdf": {
+      "pages": 3,
+      "sha256": "c59634883fe90b696cd1cb99b6dd21726b3f0f10a46bebfd1a71f54c6ec1eb65"
+    },
+    "tmlr-deployment-utility-202611050855-slides.pdf": {
+      "pages": 14,
+      "sha256": "5c79f667417b0bed69407273eb7e9b80f4f109358f64b289bf97ca7756d2fe12"
+    },
+    "tmlr-deployment-utility-202611050855-blog.pdf": {
+      "pages": 7,
+      "sha256": "fe26b462747bb2ed6bac074784399ac404c2f494433906c5ba4d2c2d412d407f"
+    }
+  },
+  "bundle_pages": 47,
+  "expected_bundle_pages": 47,
+  "source_main_sha256": "12ca8dd0ab0bef0380c27456198993ac1415e1608e1870e32d6f01a5bea80050",
+  "source_supplement_sha256": "c59634883fe90b696cd1cb99b6dd21726b3f0f10a46bebfd1a71f54c6ec1eb65"
+}
