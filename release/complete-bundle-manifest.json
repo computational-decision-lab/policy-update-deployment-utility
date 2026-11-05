@@ -4,23 +4,23 @@
   "components": {
     "01_manuscript.pdf": {
       "pages": 1,
-      "sha256": "f6b0fa4c3e15a591f13bf44728a5ae2928ac7c0f45192d825a67dfb80f23ecdf"
+      "sha256": "d2253c92e9628d7dfc1df3c64403126a6f4b7cc131097d102e9e395bf49fd97c"
     },
     "02_supplement.pdf": {
       "pages": 1,
-      "sha256": "0a0487fc568871d294f234f82b7b68a6399642014c16ba9d272327bebc40bc82"
+      "sha256": "a4c3182d8d3a14dd48ae7cfeae3c9f00cdac0d29f1c2c971e4eaffceb0a6affc"
     },
     "03_slides.pdf": {
       "pages": 1,
-      "sha256": "b2f35a2f2dd1f03f961d646ace808410d0a63b1ac05de38df00d1ed16405f51d"
+      "sha256": "b6a4c405ff4801f519ee02ff0e5b28ebb5e64820e804925c04c42f377850d0da"
     },
     "04_blog.pdf": {
       "pages": 1,
-      "sha256": "9ead2634166b5270128db0d4d290cde59743817df8c95f3014652c46ed6f418a"
+      "sha256": "eb239e302628827077ebeb5cfddbc62f73bfed402d2ec142b950aa4b191be507"
     },
     "tmlr-deployment-utility-202611050855-main.pdf": {
       "pages": 19,
-      "sha256": "69b0d4bafb446355d461829bff883e486676297b1de74cce5284e70e0b4c8c9e"
+      "sha256": "d351dbf111422b8e959361a93b42a662ea6e71d595e57d2ef4094752a16fca4a"
     },
     "tmlr-deployment-utility-202611050855-supplement.pdf": {
       "pages": 3,
@@ -28,15 +28,15 @@
     },
     "tmlr-deployment-utility-202611050855-slides.pdf": {
       "pages": 14,
-      "sha256": "3766a71267c6b8c01b365689852e2377cf97d99e6e7768df7f0eba8c31a24373"
+      "sha256": "d8eec1d2dd508cc8adc20e147ffe6f76a62ea19a28d8f23682c39d905ebe2b90"
     },
     "tmlr-deployment-utility-202611050855-blog.pdf": {
       "pages": 7,
-      "sha256": "f4a92eeafc2e8c563b9babb417015cbb727b8c99786a3cf1dbf43534bc948cc8"
+      "sha256": "70cd7526f36d5efbf893070bdcaa7ccc6cd3d260257fa08db60c45aaf06ee8fa"
     }
   },
   "bundle_pages": 47,
   "expected_bundle_pages": 47,
-  "source_main_sha256": "69b0d4bafb446355d461829bff883e486676297b1de74cce5284e70e0b4c8c9e",
+  "source_main_sha256": "d351dbf111422b8e959361a93b42a662ea6e71d595e57d2ef4094752a16fca4a",
   "source_supplement_sha256": "c59634883fe90b696cd1cb99b6dd21726b3f0f10a46bebfd1a71f54c6ec1eb65"
 }
