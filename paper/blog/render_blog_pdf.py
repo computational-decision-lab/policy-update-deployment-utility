@@ -265,7 +265,7 @@ def main() -> None:
 
     markdown = source.read_text(encoding="utf-8")
     if "TMLR" in source.name.upper() or "DEPLOYMENT" in source.name.upper():
-        label = "TMLR 2026"
+        label = "Research note"
     elif "CAAW" in source.name.upper():
         label = "CAAW 2027"
     else:
