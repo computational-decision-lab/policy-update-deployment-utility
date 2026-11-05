@@ -4,19 +4,19 @@
   "components": {
     "01_manuscript.pdf": {
       "pages": 1,
-      "sha256": "0482055ca44312df66852527398e7909abd063d94d3ebe76f60e7521c1e79a2d"
+      "sha256": "56fc6950b12f58948a666a78713b30e6b9eba58e03b2e6451a1b7a276d7044bd"
     },
     "02_supplement.pdf": {
       "pages": 1,
-      "sha256": "4f1de4408713cd720c800e65dcfadac3e948e6398b927f4c4d67c5690b3eb45e"
+      "sha256": "8a17bb90ccbda5e1d86f02d03c3db87fc2af398b0c325956b8908b3a6921100c"
     },
     "03_slides.pdf": {
       "pages": 1,
-      "sha256": "a9d96f97e08e1531079c85834dc6fb8c198d502892ef7a6e800588f7aa1dfe4f"
+      "sha256": "cd90319d689becd190513f64bd820d707d512265890e68683acb1f40786c3b54"
     },
     "04_blog.pdf": {
       "pages": 1,
-      "sha256": "4479257518f29117ad3ca0e9ebe1fd7bb9d29ea21c1a908a6cd061a1d870f6ec"
+      "sha256": "83e05fbb37f4d46d4e3cdfdb21b27ab71edbf493a3387fccf2f745bfc876a43c"
     },
     "tmlr-deployment-utility-202611050855-main.pdf": {
       "pages": 19,
@@ -28,11 +28,11 @@
     },
     "tmlr-deployment-utility-202611050855-slides.pdf": {
       "pages": 14,
-      "sha256": "818694843a2ee3d0c38941379c5625231c79c2befc54185d6060cf55f50758af"
+      "sha256": "d69c611070b81d6950f675ad9d23d341570ee42270265929e0f0fd885b94c0bd"
     },
     "tmlr-deployment-utility-202611050855-blog.pdf": {
       "pages": 7,
-      "sha256": "95e4c33eb5753fd0c66d99513e833e8cc8a81f07b15b4123e2f311ade6776890"
+      "sha256": "13368963c7730db172491dee6e70d900da2c8e63b197b32423d2593716959c76"
     }
   },
   "bundle_pages": 47,

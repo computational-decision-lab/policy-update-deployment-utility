@@ -264,7 +264,7 @@ def main() -> None:
         parser.error("xelatex is required; install a XeLaTeX distribution with Latin Modern fonts")
 
     markdown = source.read_text(encoding="utf-8")
-    if "TMLR" in source.name.upper() or "DEPLOYMENT" in source.name.upper():
+    if "DEPLOYMENT" in source.name.upper():
         label = "Research note"
     elif "CAAW" in source.name.upper():
         label = "CAAW 2027"
