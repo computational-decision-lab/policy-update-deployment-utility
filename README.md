@@ -30,6 +30,7 @@ The output directory must be separate from `paper/`. The wrapper checks the save
 - [`paper/blog/deployment_utility_technical_blog.md`](paper/blog/deployment_utility_technical_blog.md): technical reading note source.
 - [`release/tmlr-deployment-utility-202611050855-complete.pdf`](release/tmlr-deployment-utility-202611050855-complete.pdf): dated 47-page reading bundle containing the manuscript, supplement, slides, and blog.
 - [`release/policy-update-deployment-utility-202611050855-reproducibility.zip`](release/policy-update-deployment-utility-202611050855-reproducibility.zip): dated source-and-data archive for offline reproduction.
+- [`release/reproducibility-SHA256SUMS.txt`](release/reproducibility-SHA256SUMS.txt): SHA-256 checksum for the source-and-data archive.
 
 The manuscript's first-page footnote points to this repository and the same dated release identifier.
 
